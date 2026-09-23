@@ -58,6 +58,7 @@ SELECT project, stack, headline_finding FROM portfolio ORDER BY featured;
 
 | project | stack | headline finding |
 |---|---|---|
+| 🏗️ [**Olist ELT Pipeline**](https://github.com/bairipoojitha1299/olist-elt-pipeline) · raw CSVs → tested star schema, daily | Airflow · dbt · PostgreSQL · Docker · GitHub Actions | 550k rows loaded via COPY, 40+ dbt data tests, incremental fact table, CI on every push |
 | 🛒 [**Brazilian E-Commerce Sales Analysis**](https://github.com/bairipoojitha1299/olist-ecommerce-analysis) · 100k real orders, 15 business questions | PostgreSQL · Python · Docker | Deliveries 8+ days late average **1.7★** vs **4.3★** when early; **97%** of customers never reorder |
 
 ## 🕓 Experience: `git log --oneline`
