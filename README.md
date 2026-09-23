@@ -50,6 +50,16 @@ SELECT metric, result FROM impact ORDER BY proud_of DESC;
 | Recurring production problems | **-25%** |
 | Manual reporting effort | **-20 to 40%** |
 
+## 📂 Featured projects
+
+```sql
+SELECT project, stack, headline_finding FROM portfolio ORDER BY featured;
+```
+
+| project | stack | headline finding |
+|---|---|---|
+| 🛒 [**Brazilian E-Commerce Sales Analysis**](https://github.com/bairipoojitha1299/olist-ecommerce-analysis) · 100k real orders, 15 business questions | PostgreSQL · Python · Docker | Deliveries 8+ days late average **1.7★** vs **4.3★** when early; **97%** of customers never reorder |
+
 ## 🕓 Experience: `git log --oneline`
 
 ```text
@@ -90,6 +100,8 @@ SELECT certification, issuer FROM credentials;
 
 <div align="center">
 <img src="https://streak-stats.demolab.com?user=bairipoojitha1299&theme=github-dark-blue&hide_border=true" alt="GitHub streak stats" />
+<br/><br/>
+<img src="https://readme-jokes.vercel.app/api?theme=monokai&borderColor=97C13B" alt="Random dev joke" />
 </div>
 
 ## 📬 Live log
