@@ -57,6 +57,7 @@ SELECT project, stack, headline_finding FROM portfolio ORDER BY featured;
 
 | project | stack | headline finding |
 |---|---|---|
+| [**Medicare Claims Lakehouse**](https://github.com/bairipoojitha1299/medicare-claims-lakehouse) · 340K member-years, 860K claims, Databricks | PySpark · Delta Lake · Lakeflow · Asset Bundles | Medallion pipeline with quarantine tables and SCD2 history; 30-day readmission and cost-by-chronic-condition metrics |
 | [**Real-Time Payments Pipeline**](https://github.com/bairipoojitha1299/payments-streaming-pipeline) · streaming card transactions, every 5 min | Kafka · Airflow · Snowflake · dbt · Docker | Event contract + dead-letter queue, at-least-once delivery with dedup in Snowflake, idempotent loads, freshness and latency monitoring |
 | [**Credit Card Fraud Detection**](https://github.com/bairipoojitha1299/card-fraud-detection) · 1.85M transactions, SQL features + rules + ML + dashboard | PostgreSQL · Python · scikit-learn · Streamlit | Model catches **98%** of fraud with **6× fewer alerts** than rules; ~$1.1M net savings on the test period |
 | [**Olist ELT Pipeline**](https://github.com/bairipoojitha1299/olist-elt-pipeline) · raw CSVs → tested star schema, daily | Airflow · dbt · PostgreSQL · Docker · GitHub Actions | 550k rows loaded via COPY, 40+ dbt data tests, incremental fact table, CI on every push |
@@ -83,7 +84,7 @@ SELECT project, stack, headline_finding FROM portfolio ORDER BY featured;
 | **Analyze & Visualize** | Power BI, Tableau, Excel |
 | **Python libraries** | Pandas, NumPy, Matplotlib, Streamlit |
 | **Cloud & Workflow** | AWS, Git, Linux, Jira |
-| **Data engineering** | Snowflake, dbt, Apache Airflow, Apache Kafka, Docker |
+| **Data engineering** | Databricks, PySpark, Delta Lake, Snowflake, dbt, Apache Airflow, Apache Kafka, Docker |
 | **AI (exploring)** | RAG, Vector Search, Groq API |
 
 ## Certifications
